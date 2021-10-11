@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "napsa",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

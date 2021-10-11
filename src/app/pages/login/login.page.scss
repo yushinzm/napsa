@@ -1,0 +1,90 @@
+.header {
+  width: 100% !important;
+  background-color: #202f60;
+  height: 80px;
+  .item {
+    width: 10px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .item.logo {
+    margin-left: 16px;
+    width: 80px;
+
+    img {
+      height: 60px;
+      width: 60px;
+      border-radius: 50px;
+    }
+  }
+  .item.name {
+    width: 200px;
+    height: 80px;
+    color: white;
+    text-transform: uppercase;
+    small {
+      text-transform: none;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.496);
+    }
+  }
+  .item.home_button {
+    width: calc(100% - 300px);
+    text-align: right;
+    padding-right: 16px;
+  }
+  // div {
+  //   display: inline-block;
+  // }
+  // .company_logo {
+  //   width: 80px;
+  //   height: 80px;
+  //   margin-left: 16px;
+  //   padding: 8px;
+  //   img {
+  //     border-radius: 50px;
+  //   }
+  // }
+  // .company_name {
+  //   color: white;
+  //   text-transform: uppercase;
+  //   width: 200px;
+  //   height: 80px !important;
+  //   text-align: center;
+  //   margin: 0px !important;
+  //   padding: 0px !important;
+  //   padding-bottom: 16px !important;
+  // }
+}
+.container {
+  height: calc(100% - 80px);
+  background-color: rgb(240, 240, 240);
+  background-image: url("https://assets.anantara.com/image/upload/q_auto,f_auto/media/minor/anantara/images/anantara-the-palm-dubai-resort/testimonials/testimonial_background_dubai_1920x800.jpg");
+  background-repeat: no-repeat, repeat;
+  background-color: #cccccc;
+  background-size: cover;
+  .card_holder {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    ion-card {
+      width: 850px !important;
+      .items {
+        width: 50%;
+        height: 450px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      .items.card_image {
+        background-color: green;
+        background-image: url("../../../assets/imgs/cardbg.png");
+        background-repeat: no-repeat, repeat;
+        background-size: cover;
+      }
+    }
+  }
+}
